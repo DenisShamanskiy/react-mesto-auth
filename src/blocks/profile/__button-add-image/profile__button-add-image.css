@@ -1,0 +1,31 @@
+.profile__button-add-image {
+  width: 150px;
+  height: 50px;
+  margin: auto 0 auto auto;
+  border: 2px solid #ffffff;
+  background: black;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+  background-image: url("../../../images/profile__button-add.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+
+.profile__button-add-image:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 986px) {
+  .profile__button-add-image {
+    width: 581px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .profile__button-add-image {
+    width: 282px;
+  }
+}
