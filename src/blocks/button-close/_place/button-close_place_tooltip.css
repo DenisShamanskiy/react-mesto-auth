@@ -1,0 +1,8 @@
+@media screen and (max-width: 560px) {
+  .button-close_place_tooltip {
+    width: 30px;
+    height: 30px;
+    top: -52px;
+    right: calc(50% - 13px);
+  }
+}

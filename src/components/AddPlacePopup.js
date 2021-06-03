@@ -68,14 +68,14 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace, isLoadingData }) {
       isLoadingData={isLoadingData}
       isFormValid={isFormValid}
     >
-      <fieldset className="popup__fieldset">
-        <label className="popup__label">
+      <fieldset className="form__fieldset">
+        <label className="form__label">
           <input
             type="text"
             name="place"
             placeholder="Название"
-            className={`popup__input ${
-              placeValidationMessage ? "popup__input_type_error" : ""
+            className={`form__input ${
+              placeValidationMessage ? "form__input_type_error" : ""
             }`}
             required
             minLength="2"
@@ -84,28 +84,28 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace, isLoadingData }) {
             onChange={handlePlace}
           />
           <span
-            className={`popup__input-error ${
-              placeValidationMessage ? "popup__input-error_active" : ""
+            className={`form__input-error ${
+              placeValidationMessage ? "form__input-error_active" : ""
             }`}
           >
             {placeValidationMessage}
           </span>
         </label>
-        <label className="popup__field">
+        <label className="form__label">
           <input
             type="url"
             name="link"
             placeholder="Ссылка на картинку"
-            className={`popup__input ${
-              linkValidationMessage ? "popup__input_type_error" : ""
+            className={`form__input ${
+              linkValidationMessage ? "form__input_type_error" : ""
             }`}
             required
             value={link}
             onChange={handleLink}
           />
           <span
-            className={`popup__input-error ${
-              linkValidationMessage ? "popup__input-error_active" : ""
+            className={`form__input-error ${
+              linkValidationMessage ? "form__input-error_active" : ""
             }`}
           >
             {linkValidationMessage}

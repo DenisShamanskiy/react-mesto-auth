@@ -263,10 +263,10 @@ function App() {
             onCardDelete={confirmCardDelete}
           />
           <Route path="/sign-up">
-            <Register isOpen={true} onRegister={handleRegister} />
+            <Register onRegister={handleRegister} />
           </Route>
           <Route path="/sign-in">
-            <Login isOpen={true} onLogin={handleLogin} isLoading={isLoading} />
+            <Login onLogin={handleLogin} isLoading={isLoading} />
           </Route>
 
           <Route>

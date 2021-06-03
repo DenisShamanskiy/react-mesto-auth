@@ -41,23 +41,23 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, isLoadingData }) {
       isLoadingData={isLoadingData}
       isFormValid={isFormValid}
     >
-      <fieldset className="popup__fieldset">
-        <label className="popup__label">
+      <fieldset className="form__fieldset">
+        <label className="form__label">
           <input
             type="url"
             name="link"
             aria-label="Cсылка на изображение"
             placeholder="Cсылка на изображение"
-            className={`popup__input ${
-              isValidationMessage ? "popup__input_type_error" : ""
+            className={`form__input ${
+              isValidationMessage ? "form__input_type_error" : ""
             }`}
             required
             value={link}
             onChange={handleChange}
           />
           <span
-            className={`popup__input-error ${
-              isValidationMessage ? "popup__input-error_active" : ""
+            className={`form__input-error ${
+              isValidationMessage ? "form__input-error_active" : ""
             }`}
           >
             {isValidationMessage}

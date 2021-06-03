@@ -1,0 +1,7 @@
+.form__button-submit_inactive {
+  opacity: 0.2;
+}
+
+.form__button-submit_inactive:hover {
+  opacity: 0.2;
+}

@@ -35,8 +35,8 @@ function Header({ isLoggedIn, userEmail, onSignOut, isLoading }) {
           onClick={handleToggleMenu}
           type="button"
           aria-label="Закрыть меню"
-          className={`header__button-close ${
-            menuIsOpen ? "header__button-close_type_active" : ""
+          className={`button-close button-close_place_header ${
+            menuIsOpen ? "button-close_active" : ""
           }`}
         ></button>
       </div>

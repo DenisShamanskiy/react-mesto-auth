@@ -1,0 +1,5 @@
+.form__input-error_active {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}

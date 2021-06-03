@@ -9,7 +9,7 @@ function ImagePopup({ card, onClose }) {
         <button
           type="button"
           aria-label="Закрыть"
-          className="popup__button-close"
+          className="button-close popup__button-close"
           onClick={onClose}
         ></button>
         <figure className="popup__figure">

@@ -1,0 +1,11 @@
+.form__label {
+  padding: 0;
+  width: 100%;
+  height: 56px;
+  margin: 0 0 1px;
+  font-family: "Inter", ‘Arial’, sans-serif;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

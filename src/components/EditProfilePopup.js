@@ -65,14 +65,14 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoadingData }) {
       isLoadingData={isLoadingData}
       isFormValid={isFormValid}
     >
-      <fieldset className="popup__fieldset">
-        <label className="popup__label">
+      <fieldset className="form__fieldset">
+        <label className="form__label">
           <input
             type="text"
             name="name"
             placeholder="Имя"
-            className={`popup__input ${
-              !inputValidName ? "popup__input_type_error" : ""
+            className={`form__input ${
+              !inputValidName ? "form__input_type_error" : ""
             }`}
             required
             minLength="2"
@@ -81,20 +81,20 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoadingData }) {
             onChange={handleName}
           />
           <span
-            className={`popup__input-error ${
-              !inputValidName ? "popup__input-error_active" : ""
+            className={`form__input-error ${
+              !inputValidName ? "form__input-error_active" : ""
             }`}
           >
             {nameValidationMessage}
           </span>
         </label>
-        <label className="popup__field">
+        <label className="form__label">
           <input
             type="text"
             name="about"
             placeholder="Что-то о себе"
-            className={`popup__input ${
-              !inputValidDescription ? "popup__input_type_error" : ""
+            className={`form__input ${
+              !inputValidDescription ? "form__input_type_error" : ""
             }`}
             required
             minLength="2"
@@ -103,8 +103,8 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoadingData }) {
             onChange={handleDescription}
           />
           <span
-            className={`popup__input-error ${
-              !inputValidDescription ? "popup__input-error_active" : ""
+            className={`form__input-error ${
+              !inputValidDescription ? "form__input-error_active" : ""
             }`}
           >
             {descriptionValidationMessage}
