@@ -1,4 +1,4 @@
-import { settingsApi } from "./utils.js";
+import { settingsNetwork } from "./utils.js";
 class Api {
   constructor({ idCohort, token, urlServer }) {
     this._idCohort = idCohort;
@@ -108,5 +108,6 @@ class Api {
   }
 }
 
-const api = new Api(settingsApi);
+const api = new Api(settingsNetwork);
+
 export default api;

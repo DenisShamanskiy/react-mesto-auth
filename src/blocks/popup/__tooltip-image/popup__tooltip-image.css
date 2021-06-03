@@ -1,0 +1,17 @@
+.popup__tooltip-image {
+  background-image: url("../../../images/popup__register-success.svg");
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-self: center;
+  margin-bottom: 32px;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 468px) {
+  .popup__tooltip-image {
+    margin-bottom: 40px;
+  }
+}

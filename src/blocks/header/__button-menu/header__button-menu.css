@@ -1,0 +1,19 @@
+.header__button-menu {
+  height: 24px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  padding: 0;
+  transform: rotate(90deg);
+  display: none;
+}
+
+.header__button-menu:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 468px) {
+  .header__button-menu {
+    display: flex;
+  }
+}

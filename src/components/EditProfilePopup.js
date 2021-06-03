@@ -58,13 +58,12 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, isLoadingData }) {
       title="Редактировать профиль"
       name="user"
       buttonSubmitText="Сохранить"
-      isFormValid={isFormValid}
       loadingButtonSubmitText="Загрузка..."
       isOpen={isOpen}
       onClose={onClose}
       onSubmit={handleSubmit}
-      contentLabel="Форма редактирования имени пользователя"
       isLoadingData={isLoadingData}
+      isFormValid={isFormValid}
     >
       <fieldset className="popup__fieldset">
         <label className="popup__label">

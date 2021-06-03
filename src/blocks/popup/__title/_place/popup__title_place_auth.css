@@ -1,0 +1,12 @@
+.popup__title_place_auth {
+  text-align: center;
+  margin: 0 0 21px;
+}
+
+@media screen and (max-width: 468px) {
+  .popup__title_place_auth {
+    margin-bottom: 11px;
+    font-size: 20px;
+    line-height: 1.21;
+  }
+}

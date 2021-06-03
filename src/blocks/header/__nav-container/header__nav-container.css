@@ -1,0 +1,6 @@
+.header__nav-container {
+  display: flex;
+  margin: 0;
+  padding: 6px 0 0;
+  align-self: flex-start;
+}

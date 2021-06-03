@@ -9,6 +9,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: 0;
+  background-color: transparent;
 }
 
 .popup__input:focus {

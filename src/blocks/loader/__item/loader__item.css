@@ -1,0 +1,33 @@
+@-webkit-keyframes loader__item {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes loader__item {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader__item {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader__item {
+  width: 35px;
+  height: 35px;
+  border: 6px solid #fff;
+  border-left-color: #fff;
+  border-bottom-color: #fff;
+  border-right-color: transparent;
+  border-radius: 100%;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #fff, 0 0 0.8rem #fff,
+    0 0 2.8rem #fff, inset 0 0 1.3rem #fff;
+  -webkit-animation: loader__item 1s infinite linear;
+  -moz-animation: loader__item 1s infinite linear;
+  animation: loader__item 1s infinite linear;
+}

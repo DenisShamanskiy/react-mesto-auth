@@ -65,7 +65,6 @@ function AddPlacePopup({ isOpen, onClose, onAddPlace, isLoadingData }) {
       isOpen={isOpen}
       onClose={onClose}
       onSubmit={handleSubmit}
-      contentLabel="Форма добавления изображения"
       isLoadingData={isLoadingData}
       isFormValid={isFormValid}
     >

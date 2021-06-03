@@ -1,0 +1,13 @@
+.header__nav-item {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity .3s ease-in-out;
+}
+
+.header__nav-item:hover {
+  opacity: 0.6;
+}

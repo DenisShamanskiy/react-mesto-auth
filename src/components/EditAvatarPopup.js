@@ -38,7 +38,6 @@ function EditAvatarPopup({ isOpen, onClose, onUpdateAvatar, isLoadingData }) {
       isOpen={isOpen}
       onClose={onClose}
       onSubmit={handleSubmit}
-      contentLabel="Форма редактирования аватара пользователя"
       isLoadingData={isLoadingData}
       isFormValid={isFormValid}
     >

@@ -1,0 +1,9 @@
+.header__nav-container_type_column {
+  display: grid;
+  justify-items: center;
+  row-gap: 18px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}

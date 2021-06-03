@@ -1,0 +1,8 @@
+.header_columned {
+  flex-direction: column-reverse;
+  min-height: unset;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 0 0;
+  width: 100%;
+}
