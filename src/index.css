@@ -54,10 +54,9 @@
 @import url(./blocks/title/_place/title_place_auth.css);
 @import url(./blocks/auth/auth.css);
 @import url(./blocks/button-close/button-close.css);
-@import url(./blocks/button-close/_active/button-close_active.css);
 @import url(./blocks/button-close/_place/button-close_place_header.css);
-@import url(./blocks/button-close/_place/button-close_place_popup.css);
 @import url(./blocks/button-close/_place/button-close_place_tooltip.css);
+@import url(./blocks/button-close/_active/button-close_active.css);
 @import url(./blocks/form/form.css);
 @import url(./blocks/form/__auth-container/form__auth-container.css);
 @import url(./blocks/form/__auth-link/form__auth-link.css);

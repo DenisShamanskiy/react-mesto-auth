@@ -40,6 +40,7 @@ function Header({ isLoggedIn, userEmail, onSignOut, isLoading }) {
           }`}
         ></button>
       </div>
+
       <div
         onClick={handleToggleMenu}
         className={`header__button-menu ${

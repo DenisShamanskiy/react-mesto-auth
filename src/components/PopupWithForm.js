@@ -19,7 +19,7 @@ function PopupWithForm({
         <button
           type="button"
           aria-label="Закрыть"
-          className="button-close button-close_place_popup"
+          className="button-close"
           onClick={onClose}
         ></button>
         <form className="form" name={name} onSubmit={onSubmit} noValidate>

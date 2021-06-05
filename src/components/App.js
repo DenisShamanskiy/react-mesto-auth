@@ -26,7 +26,7 @@ function App() {
   const [isDeleteCardPopupOpen, setIsDeleteCardPopupOpen] = useState(false);
   const [isInfoToolTipPopupOpen, setInfoToolTipPopupOpen] = useState(false);
 
-  const [isSuccessInfoToolTip, setIsSuccessInfoToolTip] = useState(null);
+  const [isSuccessInfoToolTip, setIsSuccessInfoToolTip] = useState(false);
 
   const [selectedCard, setSelectedCard] = useState({});
   const [currentUser, setCurrentUser] = useState({});
@@ -36,7 +36,7 @@ function App() {
 
   const [cards, setCards] = useState([]);
   const [cardForDelete, setCardForDelete] = useState({});
-  const [isLoggedIn, setIsLoggedIn] = useState(null);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   const [isLoadingSetUserInfo, setIsLoadingSetUserInfo] = useState(false);
